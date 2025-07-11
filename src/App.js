@@ -978,7 +978,7 @@ export default function App() {
     return (
         <div className="bg-gray-100 min-h-screen font-sans">
             <Header />
-            <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
+            <main className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
                 {!isAuthReady ? (
                     <div className="text-center p-8"><div className="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-indigo-500 mx-auto"></div><p className="mt-4 text-gray-600">กำลังยืนยันตัวตน...</p></div>
                 ) : (
